@@ -37,7 +37,7 @@ formulario.addEventListener("submit", function(e){
     let mail = document.getElementById("exampleInputEmail1").value
 })
 
-const btn = document.getElementById("btn")
+const btn = document.getElementById("sweet")
 btn.addEventListener("click", () => {
   Swal.fire({
     icon: 'success',
