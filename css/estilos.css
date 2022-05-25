@@ -1,0 +1,165 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EFEFEF;
+    padding: 10px ;
+}
+.banner-image {
+        background-image: url('../img/travel_01.jpg');
+        background-size: cover;
+ }
+ .banner-image2 {
+    background-image: url('../img/travel2.jpg');
+    background-size: cover;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 50px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.card-description{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 70px;
+    flex-wrap: wrap;
+}
+.card{
+  width: 1000px;
+}
+
+.card-title{
+    padding: 10px;
+    font-size: 2.5rem;
+    font-family: 'Roboto Flex', sans-serif;
+    text-transform: uppercase;
+} 
+.card-text{
+    margin: 25px;
+    font-size: 30px;
+    padding: 5px;
+    padding-bottom: 2rem;
+}
+
+.btn{
+    background: #112B3C;
+    text-decoration: none;
+    color: #EFEFEF;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background: #F66B0E;
+    transition:  .2s ease-in ;
+    color: white;
+}
+.card:hover{
+    background: #112B3C;
+    color: white;
+}
+.form-control{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    color: black;
+    background-color:#EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-label{
+    padding: 10px;
+}
+.form-text{
+    padding: 10px;
+}
+
+/* CSS DEL CALCULADOR */
+   .navbar h2 {
+     text-align: center;
+   }
+   
+   .contenedor {
+    background-color: #112B3C;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+   }
+   #vacationCalc {
+     text-align: center;
+     width: 90%;
+     padding: 20px;
+     color: #fff;
+     border-radius: 20px;
+   }
+   form input::placeholder {
+     width: 15em;
+     margin: 3px;
+     height: 2em;
+     color: #6c757d;
+   }
+   .btn_calc{
+     background: #F66B0E;
+     color: #fff;
+     text-decoration: none;
+     border: none;
+     width: 100px;
+   }
+   .icons {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 1em;
+   
+   }
+   .fas {
+     font-size: 2.5em;  
+     border-radius: 50%;
+     padding: 40px;
+   
+   }
+   .fa-plane {
+     color: #2a96f3;
+   }
+   .fa-wallet {
+     color: #a96d65;
+   }
+   .fa-money-bill-wave-alt{
+     color: #42a3b8;
+   }
+   
+   .container-data {
+     display: flex;
+     justify-content: space-around;
+     margin-top: -1em;
+   }
+   
+   .container-data h6 {
+     text-align: center;
+   }
