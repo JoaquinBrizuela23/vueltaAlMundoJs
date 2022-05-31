@@ -12,4 +12,7 @@ function calcExpensas (e){
     let balance = budget - expensas
     
     console.log(destiny, budget, balance)
+};
+function UI (){
+    
 }
