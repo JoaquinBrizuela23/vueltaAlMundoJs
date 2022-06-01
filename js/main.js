@@ -31,20 +31,14 @@ viajes.forEach( (viaje) => {
     contenedor.appendChild(card);
     });
 
-const formulario = document.getElementById("form");
-formulario.addEventListener("submit", function(e){
-    e.preventDefault();
-    let mail = document.getElementById("exampleInputEmail1").value
-})
-
-const btn = document.getElementById("sweet")
+/* const btn = document.getElementById("sweet")
 btn.addEventListener("click", () => {
   Swal.fire({
     icon: 'success',
     title: 'Perfecto',
     text: 'Tu correo electronico ha sido enviado correctamente',
   })
-})
+}) */
 
 var nav = document.getElementById('navbar');
 

@@ -86,13 +86,13 @@ header{
     justify-content: center;
     align-items: center;
 }
-#form{
+/* #form{
     color: black;
     background-color:#EFEFEF;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .form-label{
     padding: 10px;
 }
