@@ -14,6 +14,17 @@ $form.addEventListener("submit", handleSubmit)
     })
     if (response.ok){
         this.reset()
-        alert("Gracias por inscribirte, tendrás tus recompensas pronto")
+        alert('Tu solicitud fue enviada con éxito') 
     }
 }
+/* const btn = document.getElementById("sweet")
+        btn.addEventListener("click", () => {
+            Swal.fire({
+
+                icon: 'success',
+    
+                title: 'Perfecto',
+    
+                text: 'Te registraste correctamente',
+  })
+}) */
