@@ -11,8 +11,22 @@ function calcExpensas (e){
     let expensas = parseInt(acomodation) + parseInt(transport) + parseInt(food)
     let balance = budget - expensas
     
-    console.log(destiny, budget, balance)
+    UI()(destiny, budget, balance);
 };
 function UI (){
-    
+    let result = document.getElementById("result")
+    let dataPrint = document.createElement("div")
+    dataPrint.innerHTML = `
+    <div class ="container-data row">
+        <div class="col s4">
+            <h6> ${destiny} </h6>
+        </div>
+        <div class="col s4">
+            <h6> ${budget} </h6>
+        </div>
+        <div class="col s4">
+            <h6> ${balance} </h6>
+        </div>
+    </div>`
+    result.appendChild(dataPrint)
 }
