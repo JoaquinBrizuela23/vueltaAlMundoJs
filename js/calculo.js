@@ -11,9 +11,9 @@ function calcExpensas (e){
     let expensas = parseInt(acomodation) + parseInt(transport) + parseInt(food)
     let balance = budget - expensas
     
-    UI()(destiny, budget, balance);
+    UI(destiny, budget, balance);
 };
-function UI (){
+function UI (destiny, budget, balance){
     let result = document.getElementById("result")
     let dataPrint = document.createElement("div")
     dataPrint.innerHTML = `
@@ -27,6 +27,13 @@ function UI (){
         <div class="col s4">
             <h6> ${balance} </h6>
         </div>
+
     </div>`
     result.appendChild(dataPrint)
+
+    reset();
+}
+
+function reset(){
+    document.getElementById("vacationCalc").reset()
 }
