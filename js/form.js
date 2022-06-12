@@ -13,18 +13,8 @@ $form.addEventListener("submit", handleSubmit)
         }
     })
     if (response.ok){
-        
-        let btn = document.getElementById("sweet")
-        btn.addEventListener("click", () => {
-            Swal.fire({
-
-                icon: 'success',
-    
-                title: 'Perfecto',
-    
-                text: 'Te registraste correctamente',
-  })
-})
+        this.reset()
+        alert("Tu mail fue enviado correctamente")
     }
 }
   
