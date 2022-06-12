@@ -31,15 +31,6 @@ viajes.forEach( (viaje) => {
     contenedor.appendChild(card);
     });
 
-/* const btn = document.getElementById("sweet")
-btn.addEventListener("click", () => {
-  Swal.fire({
-    icon: 'success',
-    title: 'Perfecto',
-    text: 'Tu correo electronico ha sido enviado correctamente',
-  })
-}) */
-
 var nav = document.getElementById('navbar');
 
       window.addEventListener('scroll', function () {

@@ -13,11 +13,8 @@ $form.addEventListener("submit", handleSubmit)
         }
     })
     if (response.ok){
-        this.reset()
-        alert('Tu solicitud fue enviada con éxito') 
-    }
-}
-/* const btn = document.getElementById("sweet")
+        
+        let btn = document.getElementById("sweet")
         btn.addEventListener("click", () => {
             Swal.fire({
 
@@ -27,4 +24,7 @@ $form.addEventListener("submit", handleSubmit)
     
                 text: 'Te registraste correctamente',
   })
-}) */
+})
+    }
+}
+  

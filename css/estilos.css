@@ -20,11 +20,18 @@ header{
     z-index: 10;
     width: 100%;
 }
+.titulos{
+  background-color: #262626;
+  width: 100vw;
+}
 .titulo{
     display: flex;
+    align-items: center;
     justify-content: center;
     position: relative;
-    margin: 50px;
+    padding: 30px;
+    color: #DEEEFE;
+    
 }
 .card-title{
     display: flex;
@@ -48,6 +55,7 @@ header{
 }
 .card{
   width: 1000px;
+  box-shadow: #262626 2px 2px 2px 2px;
 }
 
 .card-title{
@@ -86,32 +94,42 @@ header{
     justify-content: center;
     align-items: center;
 }
-/* #form{
-    color: black;
-    background-color:#EFEFEF;
+ .form{
+  width: 100vw;
+    background-color:seashell;
+    box-shadow: #262626 2px 2px 2px 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+    height: 200px;
+    flex-direction: column;
+    padding: 200px;
+    font-size: 20px;
+} 
 .form-label{
     padding: 10px;
 }
 .form-text{
     padding: 10px;
 }
+.text-white{
+  text-shadow: #262626 5px 5px 5px;
+}
 
 /* CSS DEL CALCULADOR */
-   .navbar h2 {
+   #nav{
      text-align: center;
    }
    
-   .contenedor {
+   .container-calc {
     background-color: #112B3C;
      width: 100vw;
-     display: flex;
-     flex-direction: column;
    }
    #vacationCalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     justify-content: space-around;
      text-align: center;
      width: 90%;
      padding: 20px;
@@ -163,3 +181,50 @@ header{
    .container-data h6 {
      text-align: center;
    }
+
+   /* footer */
+   
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #dae4e9;
+    height: 100 !important;
+}
+
+
+.container-fluid{
+    overflow:hidden; 
+    margin-top: 250px ;
+    background:#262626 ;
+    color: #627482  !important;
+    margin-bottom: 0 ;
+    padding-bottom:0  ;
+}
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color: #989c9e !important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
