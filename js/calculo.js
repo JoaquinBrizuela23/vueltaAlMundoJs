@@ -9,7 +9,7 @@ function calcExpensas (e){
     food = document.getElementById("food").value;
 
     let expensas = parseInt(acomodation) + parseInt(transport) + parseInt(food)
-    let balance = budget - expensas
+    let balance =  budget - expensas
     
     UI(destiny, budget, balance);
 };
